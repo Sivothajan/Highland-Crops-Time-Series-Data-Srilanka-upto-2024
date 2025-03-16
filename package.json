@@ -1,0 +1,20 @@
+{
+  "author": {
+    "name": "Sivothayan",
+    "email": "hi@Sivothajan.me"
+  },
+  "description": "Highland Crops Time Series Data Srilanka upto 2024",
+  "license": "MIT",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "node fetchData.js",
+    "makeXlsx": "node makeXlsx.js",
+    "correctErrors": "node errorCorrection.js"
+  },
+  "dependencies": {
+    "axios": "^1.8.3",
+    "cheerio": "^1.0.0",
+    "exceljs": "^4.4.0"
+  }
+}

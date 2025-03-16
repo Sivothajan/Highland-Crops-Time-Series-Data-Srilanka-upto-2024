@@ -72,4 +72,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Department of Census and Statistics, Sri Lanka for providing the data.
 - [axios](https://github.com/axios/axios) for HTTP requests.
 - [cheerio](https://github.com/cheeriojs/cheerio) for parsing HTML.
-- [xlsx](https://github.com/SheetJS/sheetjs) for handling Excel files.
+- [ExcelJS](https://github.com/exceljs/exceljs) for handling Excel files.

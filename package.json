@@ -1,20 +1,36 @@
 {
+  "$schema": "https://www.schemastore.org/package.json",
   "author": {
     "name": "Sivothayan",
-    "email": "hi@Sivothajan.me"
+    "email": "hi@Sivothayan.com"
   },
-  "description": "Highland Crops Time Series Data Srilanka upto 2024",
+  "description": "Highland Crops Time Series Data Srilanka upto 2025",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
   "scripts": {
-    "fetch": "node fetchData.js",
-    "makeXlsx": "node makeXlsx.js",
-    "correctErrors": "node errorCorrection.js"
+    "fetchData": "node src/fetchData.js",
+    "correctErrors": "node src/errorCorrection.js",
+    "makeXlsx": "node src/makeXlsx.js",
+    "format": "prettier --write ."
   },
   "dependencies": {
-    "axios": "^1.12.0",
-    "cheerio": "^1.0.0",
+    "axios": "^1.16.1",
+    "cheerio": "^1.2.0",
     "exceljs": "^4.4.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.3"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "bracketSpacing": true,
+    "arrowParens": "always",
+    "endOfLine": "auto"
   }
 }

@@ -3,9 +3,7 @@ import fs from 'fs';
 import * as cheerio from 'cheerio';
 
 // Import the finalData.json
-const data = JSON.parse(
-  fs.readFileSync('./json/dataFilter.json', 'utf8')
-);
+const data = JSON.parse(fs.readFileSync('./json/dataFilter.json', 'utf8'));
 
 // Crop category names mapping
 const cropCategories = JSON.parse(
